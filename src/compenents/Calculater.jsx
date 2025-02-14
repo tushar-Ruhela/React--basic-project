@@ -29,7 +29,7 @@ const obj = {"/":"/",
   ".":".",
 }
   return (
-    <div className='bg-gray-800 w-screen h-150'>
+    <div className='bg-gray-800 w-screen h-200'>
 <form name='calcu' className=' flex flex-col  items-center justify-center h-screen  space-y-2 '>
 
 <div className='py-2 p-4 flex justify-items-start  h-10 border-2  w-60 bg-white relative left-[-9px]' >{inputValue}</div>
