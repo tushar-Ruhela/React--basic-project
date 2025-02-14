@@ -18,7 +18,7 @@ useEffect(()=>{
 
 const itemList= items.map(({strMeal,strMealThumb,idMeal})=>{
     return(
-        <section className='p-4 bg-pink-100 rounded-md w-70 h-75 hover:bg-pink-200'>
+        <section className='p-4 bg-pink-100 rounded-md w-70 h-75 hover:bg-pink-200' key={idMeal}>
             <img className='w-70 h-50 rounded-md hover:cursor-pointer hover:h-53' src={strMealThumb} alt={strMeal} />
            <section className='flex flex-row  justify-between '>
            <p>{strMeal}</p>
